@@ -1,0 +1,28 @@
+name: user_repository
+description: A repository package for user data
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  equatable: ^2.0.3
+  firebase_auth: ^3.1.6
+  cloud_firestore: ^3.1.5
+  firebase_storage: ^10.2.6
+  path: ^1.8.0
+  rxdart: ^0.27.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.16
+  build_runner: ^2.1.7
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
